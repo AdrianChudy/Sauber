@@ -1,0 +1,143 @@
+/*style home page*/
+.navbar-header img {
+    width: 45%;
+}
+.jumbotron {
+    background-image: url(img/jumbotron.jpg);
+    background-size: cover;
+    height: 500px;
+}
+header .container {
+    width: 80%;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+ header .container h2 {
+    color: white;
+    font-size: 23px;
+}
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.glyphicon-size {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.btn-default {
+    background-color: #008b46;
+    color: white;
+    border: 2px solid black;
+}
+.btn-default:hover {
+    background-color: #101010;
+    border: solid 2px black;
+    color: white;
+}
+footer {
+    background-color: #101010;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+footer h4 {
+    color: white;
+}
+footer address, p {
+    color: #646464;
+}
+footer img {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+footer address a {
+    color: #008b46;
+}
+footer  p > a {
+    color: #646464;
+}
+/*style other page*/
+.jumbotron-little {
+    height: 300px;
+}
+.jumbotron-little  .container {
+    width: 100%;
+    margin: 0;
+    margin-top: 60px;
+}
+.page-header {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+.panel {
+    margin-top: 25px;
+}
+.contact {
+    margin-top: 20px;
+    padding: 5px;
+}
+@media only screen and (max-width:900px) {
+    .jumbotron {
+        height: 100%;
+        background-size: cover;
+    }
+  header .container {
+        margin: 0;
+        width: 100%;
+        margin-top:10%;
+    }
+   header .container img {
+        width: 50%;
+    }
+    header .container h2 {
+        font-size: 18px;
+    }
+    .navbar-header img {
+    width: 30%;
+    }
+    footer p, address, h4 {
+        font-size: 90%
+    }
+}
+@media only screen and (max-width:768px) {
+    footer img {
+        width: 40%;
+    }
+    footer .row {
+        text-align: center;
+    }
+    .content {
+        width: 80%;
+    }
+}
+@media only screen and (max-width:400px) {
+    .navbar-header img {
+    width: 50%;
+    margin-top: 10px;
+    }
+/*style other page*/
+    section .page-header h1, span {
+        font-size: 25px;
+    }
+    .content {
+        width: 90%;
+        text-align: center;
+    }
+}
